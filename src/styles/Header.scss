@@ -1,0 +1,30 @@
+.header {
+    width: 90%;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &-img {
+        width: 22%;
+        cursor: pointer;
+    }
+
+    &-button {
+        font-weight: 700;
+        color: var(--neutral-100-color);
+        background-color: var(--primary-color);
+        border: none;
+        padding: .3rem .6rem;
+        border-radius: 25px;
+        font-size: 0.3rem;
+        transition: var(--transition-time);
+        cursor: pointer;
+
+        &:active {
+            transform: scale(0.95);
+            transition: var(--transition-time);
+        }
+    }
+}

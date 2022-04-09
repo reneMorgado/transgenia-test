@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+  font-size: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --neutral-100-color: #FFFFFF;
+    --primary-color: #4A3AFF;
+    --transition-time: 200ms;
+    --neutral-300-color: #EFF0F6;
+    --neutral-400-color: #D9DBE9;
+    --neutral-600-color: #6F6C90;
+    --shadow-color: #14142B14;
+}
+
+@import './Header.scss';
+@import './Footer.scss';
+@import './Form.scss';
+@import './Steps.scss';
+@import './Counter.scss';
+
+@import './Mobile.scss';
